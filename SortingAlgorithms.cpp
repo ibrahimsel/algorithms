@@ -33,15 +33,14 @@ void SortingAlgorithms::bubbleSort(int arr[], int size)
 
 }
 
+/*
 void SortingAlgorithms::selectionSort(int arr[], int size)
 {
     auto start = std::chrono::high_resolution_clock::now();
-    int c = 0;
     for (int i = 0; i < size; i++)
-    {
-        int min = arr[c];
-        
+    {       
     }
     auto end = std::chrono::high_resolution_clock::now();
     auto elapsed = std::chrono::duration_cast<std::chrono::microseconds>(end - start).count();
 }
+*/
