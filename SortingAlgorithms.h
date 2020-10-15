@@ -8,7 +8,7 @@ class SortingAlgorithms
 public:
     void bubbleSort(int [], int);
     void selectionSort(int [], int);
-    void insertionSort();
+    void insertionSort(int [], int);
     void heapSort();
     void mergeSort();
     void quickSort();
